@@ -39,6 +39,7 @@
 *          第三个参数为一个数组，存储要修改的条件，数组的下标为数据表的字段名，需带有条件符号，如'='，’>‘等，数组的值为要查询的            值。
 *          如$a1 = array('name=AND' => 'hhhh','id>=' => 7);支持多条件，需在前一个字段名后面带上
 */
+
 #6. public function updata($table, $inData, $inCondition)
 
 
